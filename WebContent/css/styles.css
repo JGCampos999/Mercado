@@ -1,0 +1,17 @@
+body {
+    background-color: #2a2f34;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1, h2, label {
+	color: white;
+}
+
+#create, #edit, #delete {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
