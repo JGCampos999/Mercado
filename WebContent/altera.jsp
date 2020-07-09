@@ -16,7 +16,7 @@
 			<label>Descrição:</label>
 			<input type="text" name="descricao" class="form-control" value="<%=request.getParameter("descricao")%>"><br/>
 			<label>Preço:</label>
-			<input type="text" name="preco" class="form-control" value="<%=request.getParameter("preco")%>"><br/>
+			<input type="number" name="preco" class="form-control" value="<%=request.getParameter("preco")%>" step=".01"><br/>
 			<a href="index.jsp" role="button" class="btn btn-primary">Voltar</a>
 			<input type="submit"value="Alterar" class="btn btn-warning">
 		</form>

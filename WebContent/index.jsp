@@ -35,7 +35,7 @@
 				out.print("<tr>");
 				out.print("<th scope='row'>" + lista.get(i).getIdP() + "</th>");
 				out.print("<td>" + lista.get(i).getDescP() + "</td>");
-				out.print("<td>" + lista.get(i).getPrecoP() + "</td>");
+				out.print("<td> R$ " + lista.get(i).getPrecoP() + "</td>");
 				out.print("<td><a href = 'altera.jsp?id=" + lista.get(i).getIdP() + "&descricao="
 						+ lista.get(i).getDescP() + "&preco=" + lista.get(i).getPrecoP()
 						+ "' class = 'btn btn-warning'>Alterar</a></td>");
@@ -50,7 +50,7 @@
 				out.print("<tr>");
 				out.print("<th scope='row'>" + lista.get(i).getIdP() + "</th>");
 				out.print("<td>" + lista.get(i).getDescP() + "</td>");
-				out.print("<td>" + lista.get(i).getPrecoP() + "</td>");
+				out.print("<td> R$ " + lista.get(i).getPrecoP() + "</td>");
 				out.print("<td><a href = 'altera.jsp?id=" + lista.get(i).getIdP() + "&descricao="
 						+ lista.get(i).getDescP() + "&preco=" + lista.get(i).getPrecoP()
 						+ "' class = 'btn btn-warning' >Alterar</a></td>");
