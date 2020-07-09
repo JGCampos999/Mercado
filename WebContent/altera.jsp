@@ -16,7 +16,12 @@
 			<label>Descrição:</label>
 			<input type="text" name="descricao" class="form-control" value="<%=request.getParameter("descricao")%>"><br/>
 			<label>Preço:</label>
-			<input type="number" name="preco" class="form-control" value="<%=request.getParameter("preco")%>" step=".01"><br/>
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+			    	<span class="input-group-text" id="basic-addon1">R$</span>
+			  	</div>
+				<input type="number" name="preco" class="form-control" value="<%=request.getParameter("preco")%>" step=".01"><br/>
+			</div>
 			<a href="index.jsp" role="button" class="btn btn-primary">Voltar</a>
 			<input type="submit"value="Alterar" class="btn btn-warning">
 		</form>
